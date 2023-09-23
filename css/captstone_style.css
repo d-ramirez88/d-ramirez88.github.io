@@ -4,10 +4,53 @@ body{
 	color:#C2C1C2;
 }
 
+header{
+	background-image:url("https://archive.bookstr.com/wp-content/uploads/2019/08/orfoia6fvsw21.jpg");
+	background-position:top;
+	border-radius:5px;
+}
+
 h1{
-	font-size:5vw;
+	font-size:8vw;
+	text-align: center;
+	-webkit-text-stroke: 2px #B7B7B7;
 }
 
 blockquote{
-	font-size:5vh;
+	font-size:4vw;
+	text-shadow:2px 2px #000000;
 }
+
+nav{
+	text-decoration:none;
+	font-size:3vw;
+}
+
+.nav-item{
+	color:#000000;
+	background-color:rgb(255,255,255,.5);
+	margin:5px;
+}
+
+.nav-item:hover{
+	background-color:#7189FF;
+	color:#000000;
+}
+
+blockquote > footer{
+	text-align:right;
+	font-size:2vw;
+}
+
+#landing {
+	padding:10px;
+}
+
+#landing img{
+	border-radius:5px;
+	margin:5px;
+}
+
+/* div:target h2{
+	color:red;
+} */
