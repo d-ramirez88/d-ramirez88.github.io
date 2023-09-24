@@ -19,6 +19,7 @@ h1{
 h2{
 	font-size:6vw;
 	text-align: right;
+	padding-top:8vh;
 }
 
 h3{
@@ -68,6 +69,11 @@ blockquote > footer{
 	border-radius:5px;
 	margin:5px;
 }
+
+figcaption{
+	font-size:2vw;
+}
+
 
 /* div:target h2{
 	color:red;
