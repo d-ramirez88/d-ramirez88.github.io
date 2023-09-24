@@ -79,7 +79,8 @@ blockquote > footer{
 
 figcaption{
 	font-size:2.5vw;
-	text-align:justify;
+	text-align:center;
+	
 }
 
 iframe{
@@ -92,7 +93,26 @@ iframe{
 
 #other a{
 	text-decoration:none;
-	
+	font-size:4vw;
+	color:#7189FF;
+	text-align:center;
+}
+
+
+li > p {
+	display: inline-block;
+	width:70vw;
+	margin-left:15vw;
+	margin-right:15vw;
+	text-align:justify;
+}
+
+
+ul{
+	list-style: url("https://img.icons8.com/glyph-neue/64/FFFFFF/tentacles.png");
+	list-style-position:inside;
+	margin:auto;
+	padding:1vw;
 }
 /* div:target h2{
 	color:red;
