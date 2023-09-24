@@ -25,6 +25,7 @@ h2{
 	font-size:8vw;
 	text-align: right;
 	padding-top:8vh;
+	text-shadow: 2px 2px #F51AA4;
 }
 
 h3{
@@ -39,10 +40,10 @@ p{
 }
 
 blockquote{
-	font-size:5vw;
+	font-size:4vw;
 	text-shadow:2px 2px #000000;
 	color:#FFFFFF;
-	padding-top:4vh;
+	padding-top:3vh;
 }
 
 nav{
@@ -50,15 +51,28 @@ nav{
 	font-size:3vw;
 }
 
-.nav-item{
+.nav-item, .dropdown-item{
 	color:#000000;
-	background-color:rgb(255,255,255,.5);
+	background-color:rgb(255,255,255,.8);
 	margin:5px;
+	border-radius:5px;
+	font-size:3vw;
 }
 
-.nav-item:hover{
+.nav-item:hover, .dropdown-item:hover{
 	background-color:#7189FF;
 	color:#000000;
+}
+
+.dropdown-menu{
+	background-color:#462255;
+	padding-right:10px;
+}
+
+#bioMenu li{
+	list-style:none;
+	text-align:center;
+	width:80vw;
 }
 
 blockquote > footer{
@@ -69,6 +83,7 @@ blockquote > footer{
 
 #landing {
 	padding:10px;
+	vertical-align:text-top;
 	
 }
 
@@ -85,7 +100,7 @@ figcaption{
 
 iframe{
 	width:80vw;
-	max-width:360px;
+	max-width:1000px;
 	aspect-ratio:360/315;
 	display:block;
 	margin:0 auto;
@@ -103,17 +118,21 @@ li > p {
 	display: inline-block;
 	width:70vw;
 	margin-left:15vw;
-	margin-right:15vw;
+	
 	text-align:justify;
 }
 
 
-ul{
+#other ul{
 	list-style: url("https://img.icons8.com/glyph-neue/64/FFFFFF/tentacles.png");
 	list-style-position:inside;
 	margin:auto;
 	padding:1vw;
 }
+
+
+
+
 /* div:target h2{
 	color:red;
 } */
