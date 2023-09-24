@@ -1,7 +1,7 @@
 body{
 	background-color:#462255;
 	padding:20px;
-	color:#C2C1C2;
+	color:#EEEEEE;
 }
 
 header{
@@ -11,32 +11,38 @@ header{
 }
 
 h1{
-	font-size:8vw;
+	font-size:10vw;
 	text-align: center;
-	-webkit-text-stroke: 2px #B7B7B7;
+	text-shadow: 2px 2px #000000;
+}
+
+h1 ~ p {
+	text-align:center;
+	
 }
 
 h2{
-	font-size:6vw;
+	font-size:8vw;
 	text-align: right;
 	padding-top:8vh;
 }
 
 h3{
-	font-size:4vw;
+	font-size:5vw;
 	padding-top:7vh;
 }
 
 p{
 	color:#FFFFFF;
 	text-align:justify;
-	font-size:3vw;
+	font-size:4vw;
 }
 
 blockquote{
-	font-size:4vw;
+	font-size:5vw;
 	text-shadow:2px 2px #000000;
 	color:#FFFFFF;
+	padding-top:4vh;
 }
 
 nav{
@@ -57,12 +63,13 @@ nav{
 
 blockquote > footer{
 	text-align:right;
-	font-size:2vw;
+	font-size:3vw;
 }
 
 
 #landing {
 	padding:10px;
+	
 }
 
 #landing img{
@@ -71,10 +78,22 @@ blockquote > footer{
 }
 
 figcaption{
-	font-size:2vw;
+	font-size:2.5vw;
+	text-align:justify;
 }
 
+iframe{
+	width:80vw;
+	max-width:360px;
+	aspect-ratio:360/315;
+	display:block;
+	margin:0 auto;
+}
 
+#other a{
+	text-decoration:none;
+	
+}
 /* div:target h2{
 	color:red;
 } */
