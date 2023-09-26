@@ -2,6 +2,7 @@ body{
 	background-color:#462255;
 	padding:20px;
 	color:#EEEEEE;
+	font-family:'Neuton', serif;
 }
 
 header{
@@ -160,4 +161,12 @@ button{
 	height:10vh;
 	font-size:3vh;
 	border-radius:5px;
+	color:#FFFFFF;
+}
+
+#trapped{
+	color:#ca4046;
+	text-shadow:3px 3px #7bc2bc;
+	display:none;
+	font-weight:bold;
 }
