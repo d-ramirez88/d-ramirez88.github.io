@@ -25,12 +25,13 @@ h2{
 	font-size:8vw;
 	text-align: right;
 	padding-top:8vh;
-	text-shadow: 2px 2px #F51AA4;
+	text-shadow: 2px 2px #469fa1;
 }
 
 h3{
 	font-size:5vw;
 	padding-top:7vh;
+	text-shadow:2px 2px #7189FF;
 }
 
 p{
@@ -93,7 +94,7 @@ blockquote > footer{
 }
 
 figcaption{
-	font-size:2.5vw;
+	font-size:3vw;
 	text-align:center;
 	
 }
@@ -128,4 +129,35 @@ li > p {
 	list-style-position:inside;
 	margin:auto;
 	padding:1vw;
+}
+
+.cursed {
+  --s: 10vw; /* control the size */
+  --c1: rgb(70,34,85,1);
+  --c2: rgb(170,160,94,.1);
+
+  --_g: 
+     var(--c1) 0%  5% ,var(--c2) 6%  15%,var(--c1) 16% 25%,var(--c2) 26% 35%,var(--c1) 36% 45%,
+     var(--c2) 46% 55%,var(--c1) 56% 65%,var(--c2) 66% 75%,var(--c1) 76% 85%,var(--c2) 86% 95%,
+     #0000 96%;
+  background:
+    radial-gradient(50% 50% at 100% 0,var(--_g)),
+    radial-gradient(50% 50% at 0 100%,var(--_g)),
+    radial-gradient(50% 50%,var(--_g)),
+    radial-gradient(50% 50%,var(--_g)) calc(var(--s)/2) calc(var(--s)/2)
+    var(--c1);
+  background-size: var(--s) var(--s);
+}
+
+#beyond p{
+	font-size:5vw;
+	text-align:center;
+	text-shadow:2px 2px #000000;
+}
+
+button{
+	background-color:#469fa1;
+	height:10vh;
+	font-size:3vh;
+	border-radius:5px;
 }
