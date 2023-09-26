@@ -37,7 +37,7 @@ h3{
 
 p{
 	color:#FFFFFF;
-	text-align:justify;
+	text-align:left;
 	font-size:4vw;
 }
 
@@ -169,4 +169,9 @@ button{
 	text-shadow:3px 3px #7bc2bc;
 	display:none;
 	font-weight:bold;
+}
+
+figcaption a{
+	text-decoration:underline;
+	color:#FFFFFF;
 }
